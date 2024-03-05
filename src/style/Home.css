@@ -1,0 +1,23 @@
+/* Home.css */
+.mainContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
