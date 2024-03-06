@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { changeEmail,changePassword,isLogin} from '../store/index';
 import { useNavigate } from "react-router-dom";
+import {Input} from "./atom"
 import "../style/form.css";
 
 const Login = () => {
@@ -27,7 +28,7 @@ const Login = () => {
         <label htmlFor="email">
           E-mail
         </label>
-        <input
+        <Input
           type="email"
           id="email"
           name="email"
